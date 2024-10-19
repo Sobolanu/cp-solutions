@@ -1,2 +1,2 @@
 # codeforces solutions
- A repo filled with all of the solutions from various CodeForces problems
+A repo filled with a bunch of the CodeForces problems i'll (eventually) do.
