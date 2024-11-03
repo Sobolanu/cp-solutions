@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+
 typedef unsigned long long ull;
 
 int main()
