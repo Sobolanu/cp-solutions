@@ -8,6 +8,11 @@
 yoinked from editorial, thought of using a cnt array however
 i forgot std::map exists and is way better for this kind of purpose.
 10^9 ints is 4GB, which is definitely outside of mem limit
+
+My answer that i didn't know how to implement went like this:
+Let X be the number of unique elements,
+we would print out X, X times and then we would just +1 for each
+recurrence of an element.
 */
 
 int main()
