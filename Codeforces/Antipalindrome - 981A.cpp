@@ -4,6 +4,11 @@
 #include <numeric>
 #include <string>
 
+/*
+Ashamed that i had to yoink from editorial but alas i have no clue
+how to iterate through substrings LMAO
+*/
+
 bool isPalindrome(std::string& s)
 {
     std::string sSub = s;

@@ -1,6 +1,8 @@
     #include <iostream>
     #include <vector>
-     
+
+    // simple "difference between two elements of an array" problem
+
     int main()
     {
         std::ios_base::sync_with_stdio(false); std::cin.tie(0);
