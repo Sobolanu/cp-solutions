@@ -1,0 +1,2 @@
+Obviously, in LeetCode you only write a function - in these CPP files,
+I will put both the function and a testcase in int main().
