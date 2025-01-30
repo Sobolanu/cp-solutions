@@ -4,12 +4,7 @@
 
 using namespace std;
 
-/*
-my idea was right, i just didn't know that
-if the array is sorted at the n-th operation then it will
-be sorted once you finish all operations
-*/
-main()
+int main()
 {
     std::ios::sync_with_stdio(false); std::cin.tie(0);
 
