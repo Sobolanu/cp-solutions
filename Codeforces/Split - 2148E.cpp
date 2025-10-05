@@ -40,18 +40,19 @@ int main()
 
     while (t--)
     {
-        int n{}, k{};
+        ll n{}, k{};
         cin >> n >> k;
 
-        vector<int> a(n), freq(n+1);
+        vector<ll> a(n), freq(n+1);
         for(auto& x : a)
         {
             cin >> x;
             freq[x]++;
         }
 
-        int res{}; bool flag{true};
-        for(int i = 0; i < n; i++)
+        ll res{}; bool flag{true};
+
+        for(int i = 0; i <= n; i++)
         {
             if(freq[i] % k != 0)
             {
@@ -65,7 +66,7 @@ int main()
 
         if(flag)
         {
-            vector<int> cnt(n+1);
+            vector<ll> cnt(n+1);
 
             for(int l = 0, r = 0; r >= l && r < n; r++)
             {
