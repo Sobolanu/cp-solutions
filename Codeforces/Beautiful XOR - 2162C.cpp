@@ -10,6 +10,30 @@ const int mod = 1e9 + 7;
 
 using namespace std;
 
+/*
+ints a and b
+convert A to B
+pick an x from [0, a] and use XOR
+can you make A into B?
+
+what if x's are powers of two?
+iterate from least significant bit onward and flip
+or make A all 1's then flip the 0's
+
+if X is the power of two of A, and Y is the power of two of B, then if y > b impossible
+
+a = 9, bin: 1001
+b = 6, bin: 0110
+
+1 op: 1 -> 0
+2 op: 0 -> 1
+3 op: 0 -> 1
+
+0110
+0110
+
+*/
+
 int main()
 {
     ios_base::sync_with_stdio(false); cin.tie(0);
